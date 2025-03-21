@@ -12,15 +12,20 @@ body {
 }
 
 
+
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Add space below the logo */
 }
 
 .logo {
-    width: 120px;
-    
+    width: 70px;  /* Adjust as needed */
+    height: auto;
+    object-fit: contain;
 }
+
 
 
 .calculator-container {
@@ -32,6 +37,9 @@ header {
     width: 90%;
     max-width: 400px;
     animation: fadeIn 0.5s ease-in-out;
+    margin-top: 20px; /* Adds space below the logo */
+    padding-bottom: 20px; /* Adds space above the footer */
+
 }
 
 
@@ -116,4 +124,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
 }
