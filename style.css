@@ -21,7 +21,7 @@ header {
 }
 
 .logo {
-    width: 80px; 
+    width:100px; 
     height: auto;
     display: block;
     margin: 0 auto 15px;  
@@ -170,12 +170,12 @@ footer {
 
 .intro-container h1 {
     color: #2d60ff; /* PiggyVest Blue */
-    font-size: 24px;
+    font-size: 10px;
     margin-bottom: 10px;
 }
 
 .intro-container p {
     color: #333;
-    font-size: 16px;
+    font-size: 9px;
     line-height: 1.5;
 }
