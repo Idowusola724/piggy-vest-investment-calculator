@@ -17,11 +17,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px; /* Add space below the logo */
+    margin-bottom: 10px; 
 }
 
 .logo {
-    width: 70px;  /* Adjust as needed */
+    width: 70px;  
     height: auto;
     object-fit: contain;
 }
@@ -37,11 +37,9 @@ header {
     width: 90%;
     max-width: 400px;
     animation: fadeIn 0.5s ease-in-out;
-    margin-top: 20px; /* Adds space below the logo */
-    padding-bottom: 20px; /* Adds space above the footer */
-
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
-
 
 @keyframes fadeIn {
     from {
