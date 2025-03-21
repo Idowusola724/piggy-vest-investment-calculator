@@ -1,7 +1,7 @@
-/* General Styles */
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f1f6ff; /* Light blue background */
+    background-color: #f1f6ff; 
     color: #333;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-/* Header */
+
 header {
     text-align: center;
     margin-bottom: 20px;
@@ -21,7 +21,7 @@ header {
     width: 120px;
 }
 
-/* Calculator Container */
+
 .calculator-container {
     background: white;
     padding: 2rem;
@@ -33,7 +33,7 @@ header {
     animation: fadeIn 0.5s ease-in-out;
 }
 
-/* Animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -45,7 +45,7 @@ header {
     }
 }
 
-/* Form Styles */
+
 .calculator-title {
     color: #2d60ff;
     font-size: 1.6rem;
@@ -79,7 +79,7 @@ label {
     outline: none;
 }
 
-/* Button */
+
 .calculate-btn {
     background: #2d60ff;
     color: white;
@@ -97,7 +97,7 @@ label {
     transform: scale(1.05);
 }
 
-/* Result */
+
 .result-container {
     margin-top: 1.5rem;
 }
