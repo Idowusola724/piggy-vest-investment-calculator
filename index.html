@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggyVest Investment Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <img src="logo.jfif" alt="PiggyVest Logo" class="logo">
+    </header>
+
+    <div class="calculator-container">
+        <h1 class="calculator-title">PiggyVest Investment Calculator</h1>
+        <form class="calculator-form">
+            <div class="form-group">
+                <label for="amount">Investment Amount (₦):</label>
+                <input type="number" id="amount" class="form-input" placeholder="Enter amount">
+            </div>
+
+            <div class="form-group">
+                <label for="duration">Investment Duration (months):</label>
+                <input type="number" id="duration" class="form-input" placeholder="Enter duration">
+            </div>
+
+            <div class="form-group">
+                <label for="interest">Interest Rate (% per annum):</label>
+                <input type="number" id="interest" class="form-input" placeholder="Enter interest rate">
+            </div>
+
+            <button type="submit" class="calculate-btn">Calculate</button>
+        </form>
+
+        <div class="result-container">
+            <h2>Estimated Returns:</h2>
+            <p id="result">₦0.00</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
