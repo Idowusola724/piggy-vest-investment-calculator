@@ -1,12 +1,22 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f8faff;
-    color: #333;
+/* ====== Global Reset ====== */
+* {
     margin: 0;
     padding: 0;
-    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #f8faff;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ====== Header ====== */
 header {
     display: flex;
     justify-content: center;
@@ -18,16 +28,17 @@ header {
     width: 100px;
     height: auto;
     display: block;
-    margin: 20px auto;  
+    margin: 20px auto;
 }
 
+/* ====== Intro Section ====== */
 .intro-container {
     background: #f0f4ff;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     margin: 20px auto;
-    max-width: 600px; 
+    max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,7 +54,7 @@ header {
     line-height: 1.5;
 }
 
-
+/* ====== Calculator Section ====== */
 .calculator-container {
     background: white;
     padding: 2rem;
@@ -51,8 +62,9 @@ header {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     text-align: center;
     width: 90%;
-    max-width: 400px; 
+    max-width: 400px;
     margin: 30px auto;
+    flex-grow: 1; /* Pushes the footer to the bottom */
 }
 
 .calculator-title {
@@ -62,6 +74,7 @@ header {
     margin-bottom: 1rem;
 }
 
+/* ====== Form Styling ====== */
 .form-group {
     margin-bottom: 1.2rem;
     text-align: left;
@@ -83,11 +96,13 @@ label {
     transition: all 0.3s ease-in-out;
 }
 
+/* Allow decimal inputs */
 .form-input:focus {
     border-color: #2d60ff;
     outline: none;
 }
 
+/* ====== Button Styling ====== */
 .calculate-btn {
     background: #2d60ff;
     color: white;
@@ -98,6 +113,7 @@ label {
     cursor: pointer;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
+    width: 100%;
 }
 
 .calculate-btn:hover {
@@ -105,7 +121,7 @@ label {
     transform: scale(1.05);
 }
 
-
+/* ====== Results Section ====== */
 .result-container {
     background: #f1f5ff;
     padding: 15px;
@@ -119,11 +135,12 @@ label {
     color: #2d60ff;
 }
 
-
+/* ====== Footer Styling ====== */
 footer {
     text-align: center;
     padding: 10px;
     font-size: 14px;
     color: #666;
-    margin-top: 20px;
+    background: #f8faff;
+    margin-top: auto;
 }
